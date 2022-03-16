@@ -14,7 +14,7 @@ function App() {
     const fetchItems = async () => {
       
       const result = await axios(
-        `https://www.breakingbadapi.com/api/characters?name=${query}`
+        `https://www.breakingbadapi.com//api/character/random${query}`
       );
       //console.log(result.data)
       
