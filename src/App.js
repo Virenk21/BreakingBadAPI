@@ -1,8 +1,13 @@
+
+import Header from "./components/ui/Header";
 import './App.css';
 
 function App() {
   return (
-    <div>  Breaking Bad  </div>
+    <div className='container'>
+      <Header />
+       </div>
+      
   );
 }
 
